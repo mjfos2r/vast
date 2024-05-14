@@ -34,10 +34,9 @@ from vlstools.slip_detection import slippage_worker
 
 
 __author__ = "Theodore (Ted) B. Verhey"
-__version__ = "5.0"
+__version__ = "5.0.1"
 __email__ = "verheytb@gmail.com"
 __status__ = "Production"
-
 
 class Database(object):
     def __init__(self, user_working=os.path.expanduser("~/.vastdb")):

@@ -1,7 +1,7 @@
 
 import multiprocessing
 from itertools import combinations, product
-from scipy.misc import comb
+from scipy.special import comb
 from .alignments import is_subset
 from .utils import Counter, tprint, chunk_combinations, is_sublist
 
